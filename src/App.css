@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.navContainer {
+}
+
+.navContainer nav {
+  display: flex;
+  align-items: center;
+}
+
+.navContainer li {
+  list-style-type: none ;
+}
+
+.navContainer ul {
+  padding-left: 36px;
+}
+
+.weatherContainer {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.weatherContainer div, p {
+  display: block;
+
+  text-align: center;
+  margin: 16 auto;
+}
+
+.weatherContainer img {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
