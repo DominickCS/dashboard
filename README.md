@@ -7,4 +7,3 @@ Clone this repository
 Run `npm i` in the directory and run `npm run dev` to serve the dashboard.
 
 ### To Do
-- Modularize Open Weather Map API Component
