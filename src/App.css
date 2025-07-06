@@ -37,3 +37,9 @@
 .navLinks li {
   padding-left: 48px;
 }
+
+.headerAppBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

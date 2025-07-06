@@ -21,11 +21,13 @@ function App() {
           </ul>
         </nav>
       </div>
-      <div className="weatherAppBox">
-        <WeatherApp />
-      </div>
-      <div className="googleTasksBox">
-        <h2>Google Tasks PlaceHolder</h2>
+      <div className="headerAppBox">
+        <div className="weatherAppBox">
+          <WeatherApp />
+        </div>
+        <div className="googleTasksBox">
+          <h2>Google Tasks PlaceHolder</h2>
+        </div>
       </div>
       <div className="appsBox">
         <div className="rssFeed">
