@@ -1,5 +1,6 @@
 import WeatherApp from "./components/WeatherApp.jsx";
 import RSSFeedApp from "./components/RSSFeedApp.jsx";
+import GTaskComponent from "./components/GTaskComponent.jsx";
 import "./App.css";
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
           <WeatherApp />
         </div>
         <div className="googleTasksBox">
-          <h2>Google Tasks PlaceHolder</h2>
+          <GTaskComponent />
         </div>
       </div>
       <div className="appsBox">
