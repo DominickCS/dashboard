@@ -24,7 +24,8 @@
 .appsBox {
   background-color: #00112280;
   border-radius: 24px;
-  max-width: 50%;
+  margin: 0 auto;
+  max-width: 80%;
   justify-content: space-evenly;
   text-align: center;
 }
