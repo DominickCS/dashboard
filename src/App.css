@@ -1,15 +1,16 @@
 #root {
-  max-width: 1280px;
-  padding: 2rem;
+  min-width: 100vw;
   text-align: center;
-}
-
-.navContainer {
+  background: url("/bg.svg");
+  background-size: cover;
 }
 
 .navContainer nav {
   display: flex;
   align-items: center;
+  padding: 16px;
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 .navContainer li {
@@ -18,4 +19,20 @@
 
 .navContainer ul {
   padding-left: 36px;
+}
+
+.appsBox {
+  background-color: #00112280;
+  border-radius: 24px;
+  max-width: 50%;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.navLinks {
+  display: flex;
+}
+
+.navLinks li {
+  padding-left: 48px;
 }

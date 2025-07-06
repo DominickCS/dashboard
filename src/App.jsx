@@ -8,9 +8,15 @@ function App() {
       <div className="navContainer">
         <nav>
           <h1>Dashboard</h1>
-          <ul>
+          <ul className="navLinks">
             <li>
               <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="https://www.gmail.com/">E-mail</a>
+            </li>
+            <li>
+              <a href="/"></a>
             </li>
           </ul>
         </nav>
@@ -18,9 +24,13 @@ function App() {
       <div className="weatherAppBox">
         <WeatherApp />
       </div>
-      <div className="rssFeedBox">
-        <RSSFeedApp url="https://cors-anywhere.herokuapp.com/https://9to5linux.com/feed/atom" />
-        <RSSFeedApp url="https://cors-anywhere.herokuapp.com/https://dev.to/rss" />
+      <div className="appsBox">
+        <div className="rssFeed">
+          <RSSFeedApp url="https://cors-anywhere.herokuapp.com/https://9to5linux.com/feed/atom" />
+          <div className="rssFeed">
+            <RSSFeedApp url="https://cors-anywhere.herokuapp.com/https://dev.to/rss" />
+          </div>
+        </div>
       </div>
     </>
   );

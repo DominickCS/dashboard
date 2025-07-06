@@ -1,17 +1,25 @@
 ul {
   list-style-type: none;
-  margin-left: 0;
   padding-left: 0;
+  text-align: center;
 }
 
-li {
-  text-align: left;
+.rssFeed li {
+  text-align: center;
+  padding-top: 32px;
+  margin-top: 24px;
 }
 
-.rssFeedBox {
-  display: flex;
+li:hover {
+  transform: scale(1.15);
+  transition: 0.8s;
 }
 
 .rssFeed {
-  padding: 48px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 24px;
+  align-items: center;
+  margin-bottom: 48px;
 }

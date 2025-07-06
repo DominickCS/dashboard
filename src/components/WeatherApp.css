@@ -1,13 +1,15 @@
 .weatherContainer {
   padding: 8px;
   border-radius: 8px;
+  width: 20%;
 }
 
 .weatherContainer div,
 p {
   display: block;
   text-align: center;
-  margin: 16 auto;
+  margin: 0 auto;
+  color: #ffbaf1;
 }
 
 .weatherContainer img {
