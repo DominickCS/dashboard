@@ -3,7 +3,8 @@
   border-radius: 8px;
 }
 
-.weatherContainer div, p {
+.weatherContainer div,
+p {
   display: block;
   text-align: center;
   margin: 16 auto;

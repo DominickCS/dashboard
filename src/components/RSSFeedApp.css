@@ -1,0 +1,17 @@
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  text-align: left;
+}
+
+.rssFeedBox {
+  display: flex;
+}
+
+.rssFeed {
+  padding: 48px;
+}
