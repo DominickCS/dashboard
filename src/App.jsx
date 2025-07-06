@@ -24,6 +24,9 @@ function App() {
       <div className="weatherAppBox">
         <WeatherApp />
       </div>
+      <div className="googleTasksBox">
+        <h2>Google Tasks PlaceHolder</h2>
+      </div>
       <div className="appsBox">
         <div className="rssFeed">
           <RSSFeedApp url="https://cors-anywhere.herokuapp.com/https://9to5linux.com/feed/atom" />
